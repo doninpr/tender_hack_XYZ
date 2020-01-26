@@ -1,3 +1,11 @@
 export const MAPBOX_READY = "MAPBOX_READY";
 export const RESIZE_WINDOW = "RESIZE_WINDOW";
 export const MAPBOX_VIEWPORT_CHANGE = "MAPBOX_VIEWPORT_CHANGE";
+export const API_GET_ARCS_START = "API_GET_ARCS_START";
+export const API_GET_ARCS_QUERY = "API_GET_ARCS_QUERY";
+export const API_GET_ARCS_FINISH = "API_GET_ARCS_FINISH";
+export const ARCS_RENDER = "ARCS_RENDER";
+export const ARCS_HIDE = "ARCS_HIDE";
+export const OBOTOR_HIDE = "OBOTOR_HIDE";
+export const POSTAV_HIDE = "POSTAV_HIDE";
+export const ZAKAZ_HIDE = "ZAKAZ_HIDE";

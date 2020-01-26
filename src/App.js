@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import $ from 'jquery';
 import MapBox from "./components/MapBox/MapBox";
+import Deckgl from "./components/Deckgl/Deckgl";
+import Sidebar from "./components/Sidebar/Sidebar";
 import { MAPBOX } from "./constants";
 import { changeWindowSize } from './redux/actions';
 import "./styles.css";
@@ -32,7 +34,8 @@ class App extends React.Component {
   	render() {
   		return (
 			<div className="railroads-app">
-				<MapBox mapboxApiAccessToken={ MAPBOX.API_TOKEN } />
+        <Deckgl mapboxApiAccessToken={ MAPBOX.API_TOKEN } />
+        <Sidebar />
 			</div>
 		);
   	}
